@@ -1,0 +1,306 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  color: #98a0a6;
+}
+@media (min-width: 768px) {
+  .view-page {
+    background: linear-gradient(130deg, #ff7af5 0%, #5961f9 100%);
+  }
+}
+.home-image {
+  border-radius: 50%;
+  background: #fff;
+  padding: 2rem;
+}
+.text-h4 {
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+}
+
+.text-h5 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #000;
+}
+.text-h6 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.icon-pink {
+  filter: opacity(0.9) drop-shadow(0 0 0 #f9096c);
+}
+.card-view {
+  background: rgb(238, 238, 238);
+}
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.icon {
+  background: #e1e3ea;
+  padding: 8px;
+  border-radius: 4px;
+}
+.f-icon {
+  color: #f9096c;
+  width: 24px;
+  height: 24px;
+  padding-top: 2px;
+}
+
+.landing-bgimage {
+  background-image: url(https://uk.luckycrush.live/assets/img/people-mozaic.png);
+  background-size: cover;
+}
+
+.register label {
+  display: block;
+  text-align: start;
+}
+.accept {
+  width: 32px;
+  height: 32px;
+}
+.register input {
+  line-height: 35px;
+  font-size: 16px;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(139, 139, 139);
+  border-image: initial;
+  width: 100%;
+}
+.female-register input {
+  line-height: 35px;
+  font-size: 16px;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(139, 139, 139);
+  border-image: initial;
+}
+.female-register label {
+  display: block;
+  text-align: start;
+}
+.imp {
+  margin-top: 3rem !important;
+}
+.upper {
+  z-index: 2000 !important;
+}
+.class1 {
+  color: #f9096c;
+  background-color: #fff;
+}
+.modal-header {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+  margin-bottom: 16px;
+  letter-spacing: 0.8px;
+}
+.btn-custom {
+  background: #f9096c;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+}
+.ab-position {
+  position: absolute;
+  right: -19px;
+  top: -19px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 8px;
+}
+.sub-class {
+  padding: 0px 4px;
+  cursor: pointer;
+  border: 3px solid rgb(180, 180, 180);
+  align-items: center;
+  display: flex;
+  color: rgb(180, 180, 180);
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  min-height: 55px;
+  border-radius: 8px;
+}
+.sub-class-special {
+  border: 3px solid #f9096c;
+}
+
+.sub-class:hover {
+  border: 3px solid #75be06;
+  padding-left: 0px;
+}
+.sub-icon:hover {
+  display: block;
+}
+.tabble td,
+.tabble th {
+  padding: 12px;
+  text-align: start;
+}
+
+.sidebar-lists li {
+  margin-bottom: 24px;
+}
+
+.sidebar-lists h5 {
+  color: #000;
+}
+
+.sidebar_icon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sidebar__icon {
+  background: #f3f6f9;
+  border-radius: 8px;
+  padding: 16px;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 0 1rem;
+}
+.modalNav-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  border: 1px solid #888;
+  max-width: 400px;
+  max-height: 20rem;
+  overflow-x: hidden;
+}
+.contain-modal-content {
+  background-color: #fefefe;
+  border: 1px solid #888;
+  max-width: 400px;
+  max-height: 25rem;
+}
+.pd-sm {
+  padding: 0 1.2rem 1rem 1rem;
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.blog-container {
+  background-color: #fff;
+  padding: 2rem;
+}
+
+.blog_container {
+  margin: 4rem;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.blog-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.blog-btn {
+  color: #000;
+  font-weight: 600;
+  border-radius: 8px;
+  width: 100%;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.registration-container {
+  background-color: #fff;
+}
+.invite-bg-image {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/771/370/503/hot-girl-images-for-backgrounds-desktop-wallpaper-preview.jpg);
+}
+.user-card {
+  border-radius: 8px;
+  padding-bottom: 1.5rem;
+}
+
+.delete_user {
+  position: fixed;
+  top: 15%;
+  left: 50%;
+  max-width: 40rem;
+  transform: translate(-50%, -15%);
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+
+  color: #fff;
+  font-weight: bold;
+}
+
+.table-container {
+  width: 767px;
+}
+
+@media (max-width: 499px) {
+  .modal-header {
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .blog-container {
+    margin: 0 4rem;
+  }
+  .registration-container {
+    padding: 4rem;
+  }
+}

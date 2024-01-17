@@ -1,0 +1,5 @@
+This folder (withAuth Folder) contains sections of diffrent pages of the webapp e.g all the pages after login 
+{   -user Landing, 
+    -Notification, 
+    e.t.c...
+}

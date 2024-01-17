@@ -1,0 +1,7 @@
+This folder (noAuth Folder) contains sections of diffrent pages of the website e.g all the pages before login 
+{   -Home, 
+    -About_us, 
+    -Pricing, 
+    -Contact_us,
+    e.t.c...
+}
